@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Added by @jhordyess, erase if you want1
+.devcontainer
