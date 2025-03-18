@@ -1,17 +1,20 @@
-$primary-color: #3498db;
-$secondary-color: #e74c3c;
+@use "sass:color";
+
+$primary-color: #aa866a;
+$secondary-color: #40646c;
+$text-color: #fff;
 
 .container {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
-  background-color: lighten($primary-color, 20%);
+  background-color: color.scale($primary-color, $lightness: 20%);
 
   h1 {
-    color: $primary-color;
+    color: $secondary-color;
   }
 
   p {
-    color: $secondary-color;
+    color: $text-color;
   }
 }
