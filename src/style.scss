@@ -1,0 +1,20 @@
+@use "sass:color";
+
+$primary-color: #aa866a;
+$secondary-color: #40646c;
+$text-color: #fff;
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: color.scale($primary-color, $lightness: 20%);
+
+  h1 {
+    color: $secondary-color;
+  }
+
+  p {
+    color: $text-color;
+  }
+}
