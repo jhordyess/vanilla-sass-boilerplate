@@ -5,8 +5,8 @@ This is a simple boilerplate project for getting started with a web development 
 ## Features
 
 - Vanilla JavaScript: Write modern JavaScript code without any frameworks or libraries.
-- Sass: Utilize the power of Sass to create maintainable and organized CSS styles.
-- Vite: Enjoy a fast development experience with Vite's blazing-fast build tooling.
+- Sass: Utilize the power of Sass to create maintainable and organized CSS styles. (v. 1.86.0)
+- Vite: Enjoy a fast development experience with Vite's blazing-fast build tooling. (v. 6.2.2)
 
 ## Getting Started
 
@@ -25,7 +25,7 @@ cd vanilla-sass-boilerplate
 3. Install dependencies:
 
 ```sh
-yarn
+yarn install
 
 # With npm
 npm install
@@ -48,9 +48,11 @@ npm run dev
 vanilla-sass-boilerplate/
 ├── .gitignore
 ├── index.html Entry point HTML file.
-├── main.js Main JavaScript file.
 ├── package.json Project configuration and dependencies.
-├── style.scss Main Sass file. Write your styles here.
+├── README.md Project documentation.
+├── src/
+│   ├── main.js Main JavaScript file.
+│   ├── style.scss Main Sass file. Write your styles here.
 ```
 
 ## Commands
