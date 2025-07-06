@@ -5,8 +5,8 @@ This is a simple boilerplate project for getting started with a web development 
 ## Features
 
 - Vanilla JavaScript: Write modern JavaScript code without any frameworks or libraries.
-- Sass: Utilize the power of Sass to create maintainable and organized CSS styles. (v. 1.86.0)
-- Vite: Enjoy a fast development experience with Vite's blazing-fast build tooling. (v. 6.2.2)
+- Sass: Utilize the power of Sass to create maintainable and organized CSS styles. (v. 1)
+- Vite: Enjoy a fast development experience with Vite's blazing-fast build tooling. (v. 7)
 
 ## Getting Started
 
@@ -25,18 +25,12 @@ cd vanilla-sass-boilerplate
 3. Install dependencies:
 
 ```sh
-yarn install
-
-# With npm
 npm install
 ```
 
 4. Start the development server:
 
 ```sh
-yarn dev
-
-# With npm
 npm run dev
 ```
 
@@ -46,13 +40,13 @@ npm run dev
 
 ```md
 vanilla-sass-boilerplate/
-├── .gitignore
-├── index.html Entry point HTML file.
-├── package.json Project configuration and dependencies.
-├── README.md Project documentation.
+├── .gitignore              # Files and directories to ignore in Git.
+├── index.html              # Entry point HTML file.
+├── package.json            # Project configuration and dependencies.
+├── README.md               # Project documentation.
 ├── src/
-│   ├── main.js Main JavaScript file.
-│   ├── style.scss Main Sass file. Write your styles here.
+│   ├── main.js             # Main JavaScript file.
+│   ├── style.scss          # Main Sass file. Write your styles here.
 ```
 
 ## Commands
@@ -60,27 +54,18 @@ vanilla-sass-boilerplate/
 ### Start the development server
 
 ```sh
-yarn dev
-
-# With npm
 npm run dev
 ```
 
 ### Build the project for production
 
 ```sh
-yarn build
-
-# With npm
 npm run build
 ```
 
 ### Preview the project before production
 
 ```sh
-yarn preview
-
-# With npm
 npm run preview
 ```
 
