@@ -6,7 +6,7 @@ This is a simple boilerplate project for getting started with a web development 
 
 - Vanilla JavaScript: Write modern JavaScript code without any frameworks or libraries.
 - Sass: Utilize the power of Sass to create maintainable and organized CSS styles. (v. 1)
-- Vite: Enjoy a fast development experience with Vite's blazing-fast build tooling. (v. 7)
+- Vite: Enjoy a fast development experience with Vite's blazing-fast build tooling. (v. 8)
 
 ## Getting Started
 
